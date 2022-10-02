@@ -1,0 +1,115 @@
+/*font and color*/
+
+body {
+    background-color: rgb(200, 200, 220);
+    color:rgb(20, 20, 50);
+    font-family: 'playfair', monospace ;
+    font-size: 22px;
+    font-weight: 200;
+    text-decoration: none;
+    
+}
+
+h1 {
+    color: #003f4e;
+    text-justify: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 42px;
+    font-weight: bolder;
+}
+
+h2 {
+    color: #004f62;
+    text-justify: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230/230/230);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    color: #263238;
+    font-family: 'playfair';
+}
+
+
+/*custom design with class*/
+
+.container {
+    width: 1000px;
+    margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 800px;
+    }
+}
+
+.card-blue {
+    background: ghostwhite;
+    padding: 60px;
+    margin: 20px;
+    box-shadow: 5px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: #6b72e1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.btn-blue :hover {
+    background-color: black;
+    color: white;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    
+}
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+.list-inline i {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+    color: black;
+}
+
+.fa-discord:before {
+    color: rgb(200/200/200);
+}
+
+
+/*custom design with id*/
+#introduction p {
+    margin-bottom: 40px;
+}
+
